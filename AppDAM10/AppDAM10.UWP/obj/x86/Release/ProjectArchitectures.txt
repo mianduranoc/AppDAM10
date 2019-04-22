@@ -1,0 +1,1 @@
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10.UWP\AppDAM10.UWP.csproj;x86

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78ee66f9-286b-4e57-8c75-cbc8e40aed68" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AppDAM10/AppDAM10/Views/Inventories/FicViInventariosList.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <marker date="1552584649855" expanded="true" signature="40:2299" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &lt;StackLayout&gt;&#10;            &lt;SearchBar&#10;                HorizontalOptions=&quot;FillAndExpand&quot;&#10;                Placeholder=&quot;Filtrar Informacion...&quot;&#10;                PlaceholderColor=&quot;Black&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                Grid.Column=&quot;0&quot;&#10;                x:Name=&quot;FicSearchBar&quot;&#10;                TextChanged=&quot;FicSearchBar_TextChanged&quot;&#10;                HeightRequest=&quot;42&quot;/&gt;&#10;            &lt;syncfusion:SfDataGrid&#10;                x:Name=&quot;FicDataGridListaInventarios&quot;&#10;                VerticalOptions=&quot;FillAndExpand&quot;&#10;                ColumnSizer=&quot;Star&quot;&#10;                AutoGenerateColumns=&quot;False&quot;&#10;                AllowSorting=&quot;False&quot;&#10;                ItemsSource=&quot;{Binding FicSfDataGrid_ItemSource_Inventarios}&quot;&#10;                SelectedItem=&quot;{Binding FicSfDataGrid_SelectedItem_Inventarios}&quot;&#10;                SelectionMode=&quot;Single&quot;&gt;&#10;                &lt;syncfusion:SfDataGrid.Columns x:TypeArguments=&quot;syncfusion:Columns&quot;&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ID&quot; MappingName=&quot;IdInventario&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ESTATUS&quot; MappingName=&quot;IdEstatus&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;SAP&quot; MappingName=&quot;IdInventariosSAP&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ALMACEN&quot; MappingName=&quot;IdAlmacen&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;CEDI&quot; MappingName=&quot;IdCEDI&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;FECHA&quot; MappingName=&quot;FechaReg&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;USUARIO&quot; MappingName=&quot;UsuarioReg&quot;/&gt;&#10;                &lt;/syncfusion:SfDataGrid.Columns&gt;&#10;                &#10;            &lt;/syncfusion:SfDataGrid&gt;&#10;        &lt;/StackLayout&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+                <marker date="1552584649855" expanded="true" signature="356:2284" ph="&lt;&lt;StackLayout&gt;&#10;            &lt;SearchBar&#10;                HorizontalOptions=&quot;FillAndExpand&quot;&#10;                Placeholder=&quot;Filtrar Informacion...&quot;&#10;                PlaceholderColor=&quot;Black&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                Grid.Column=&quot;0&quot;&#10;                x:Name=&quot;FicSearchBar&quot;&#10;                TextChanged=&quot;FicSearchBar_TextChanged&quot;&#10;                HeightRequest=&quot;42&quot;/&gt;&#10;            &lt;syncfusion:SfDataGrid&#10;                x:Name=&quot;FicDataGridListaInventarios&quot;&#10;                VerticalOptions=&quot;FillAndExpand&quot;&#10;                ColumnSizer=&quot;Star&quot;&#10;                AutoGenerateColumns=&quot;False&quot;&#10;                AllowSorting=&quot;False&quot;&#10;                ItemsSource=&quot;{Binding FicSfDataGrid_ItemSource_Inventarios}&quot;&#10;                SelectedItem=&quot;{Binding FicSfDataGrid_SelectedItem_Inventarios}&quot;&#10;                SelectionMode=&quot;Single&quot;&gt;&#10;                &lt;syncfusion:SfDataGrid.Columns x:TypeArguments=&quot;syncfusion:Columns&quot;&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ID&quot; MappingName=&quot;IdInventario&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ESTATUS&quot; MappingName=&quot;IdEstatus&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;SAP&quot; MappingName=&quot;IdInventariosSAP&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ALMACEN&quot; MappingName=&quot;IdAlmacen&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;CEDI&quot; MappingName=&quot;IdCEDI&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;FECHA&quot; MappingName=&quot;FechaReg&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;USUARIO&quot; MappingName=&quot;UsuarioReg&quot;/&gt;&#10;                &lt;/syncfusion:SfDataGrid.Columns&gt;&#10;                &#10;            &lt;/syncfusion:SfDataGrid&gt;&#10;        &lt;/StackLayout&gt;.../&gt;" />
+                <marker date="1552584649855" expanded="true" signature="386:2257" ph="&lt;&lt;SearchBar&#10;                HorizontalOptions=&quot;FillAndExpand&quot;&#10;                Placeholder=&quot;Filtrar Informacion...&quot;&#10;                PlaceholderColor=&quot;Black&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                Grid.Column=&quot;0&quot;&#10;                x:Name=&quot;FicSearchBar&quot;&#10;                TextChanged=&quot;FicSearchBar_TextChanged&quot;&#10;                HeightRequest=&quot;42&quot;/&gt; &lt;syncfusion:SfDataGrid&#10;                x:Name=&quot;FicDataGridListaInventarios&quot;&#10;                VerticalOptions=&quot;FillAndExpand&quot;&#10;                ColumnSizer=&quot;Star&quot;&#10;                AutoGenerateColumns=&quot;False&quot;&#10;                AllowSorting=&quot;False&quot;&#10;                ItemsSource=&quot;{Binding FicSfDataGrid_ItemSource_Inventarios}&quot;&#10;                SelectedItem=&quot;{Binding FicSfDataGrid_SelectedItem_Inventarios}&quot;&#10;                SelectionMode=&quot;Single&quot;&gt;&#10;                &lt;syncfusion:SfDataGrid.Columns x:TypeArguments=&quot;syncfusion:Columns&quot;&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ID&quot; MappingName=&quot;IdInventario&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ESTATUS&quot; MappingName=&quot;IdEstatus&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;SAP&quot; MappingName=&quot;IdInventariosSAP&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ALMACEN&quot; MappingName=&quot;IdAlmacen&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;CEDI&quot; MappingName=&quot;IdCEDI&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;FECHA&quot; MappingName=&quot;FechaReg&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;USUARIO&quot; MappingName=&quot;UsuarioReg&quot;/&gt;&#10;                &lt;/syncfusion:SfDataGrid.Columns&gt;&#10;                &#10;            &lt;/syncfusion:SfDataGrid&gt;.../&gt;" />
+                <marker date="1552584649855" expanded="true" signature="412:757" ph="&lt;.../&gt;" />
+                <marker date="1552584649855" expanded="true" signature="770:2234" ph="&lt;&lt;syncfusion:SfDataGrid.Columns x:TypeArguments=&quot;syncfusion:Columns&quot;&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ID&quot; MappingName=&quot;IdInventario&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ESTATUS&quot; MappingName=&quot;IdEstatus&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;SAP&quot; MappingName=&quot;IdInventariosSAP&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ALMACEN&quot; MappingName=&quot;IdAlmacen&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;CEDI&quot; MappingName=&quot;IdCEDI&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;FECHA&quot; MappingName=&quot;FechaReg&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;USUARIO&quot; MappingName=&quot;UsuarioReg&quot;/&gt;&#10;                &lt;/syncfusion:SfDataGrid.Columns&gt;.../&gt;" />
+                <marker date="1552584649855" expanded="true" signature="1223:2180" ph="&lt;&lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ID&quot; MappingName=&quot;IdInventario&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ESTATUS&quot; MappingName=&quot;IdEstatus&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;SAP&quot; MappingName=&quot;IdInventariosSAP&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ALMACEN&quot; MappingName=&quot;IdAlmacen&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;CEDI&quot; MappingName=&quot;IdCEDI&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;FECHA&quot; MappingName=&quot;FechaReg&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;USUARIO&quot; MappingName=&quot;UsuarioReg&quot;/&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppDAM10/AppDAM10.Android/SQLite/FicDataBasePathSQLiteAndroid.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <marker date="1552326731139" expanded="false" signature="6:313" ph="..." />
+                <marker date="1552326731139" expanded="true" signature="406:689" ph="{...}" />
+                <marker date="1552326731139" expanded="true" signature="471:687" ph="{...}" />
+                <marker date="1552326731139" expanded="true" signature="520:681" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppDAM10/AppDAM10/App.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1549562337412" expanded="true" signature="40:276" ph="&lt;&lt;Application.Resources&gt;&#10;&#10;    &lt;/Application.Resources&gt;.../&gt;" />
+                <marker date="1549562337412" expanded="true" signature="208:261" ph="&lt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AppDAM10/AppDAM10.Android/SQLite/FicDataBasePathSQLiteAndroid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AppDAM10/AppDAM10/Views/Inventories/FicViInventariosList.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AppDAM10/AppDAM10/App.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AppDAM10/AppDAM10/Views/Inventories/FicViInventariosList.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="AppDAM10.Android/invalid/Android Facet - AppDAM10.Android" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="AppDAM10" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="UWP.UWP Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UWP Default" type="UwpProject" factoryName="UWP">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Ask" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78ee66f9-286b-4e57-8c75-cbc8e40aed68" name="Default Changelist" comment="" />
+      <created>1552583687318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552583687318</updated>
+      <workItem from="1552583693727" duration="1733000" />
+      <workItem from="1552590805069" duration="67000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1800000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Captures" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="XAML Preview" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Performance Profiler" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="14" />
+      <window_info anchor="bottom" id="Logcat" order="15" />
+      <window_info anchor="bottom" id="Unit Tests" order="16" />
+      <window_info anchor="bottom" id="Database Changes" order="17" />
+      <window_info anchor="bottom" id="Version Control" order="18" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/Program Files/visual/MSBuild/Xamarin/Android/Xamarin.Android.Common.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="1897" column="4" selection-start-line="1897" selection-start-column="4" selection-end-line="1897" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppDAM10/AppDAM10/Views/Inventories/FicViInventariosList.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <marker date="1552584649855" expanded="true" signature="40:2299" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &lt;StackLayout&gt;&#10;            &lt;SearchBar&#10;                HorizontalOptions=&quot;FillAndExpand&quot;&#10;                Placeholder=&quot;Filtrar Informacion...&quot;&#10;                PlaceholderColor=&quot;Black&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                Grid.Column=&quot;0&quot;&#10;                x:Name=&quot;FicSearchBar&quot;&#10;                TextChanged=&quot;FicSearchBar_TextChanged&quot;&#10;                HeightRequest=&quot;42&quot;/&gt;&#10;            &lt;syncfusion:SfDataGrid&#10;                x:Name=&quot;FicDataGridListaInventarios&quot;&#10;                VerticalOptions=&quot;FillAndExpand&quot;&#10;                ColumnSizer=&quot;Star&quot;&#10;                AutoGenerateColumns=&quot;False&quot;&#10;                AllowSorting=&quot;False&quot;&#10;                ItemsSource=&quot;{Binding FicSfDataGrid_ItemSource_Inventarios}&quot;&#10;                SelectedItem=&quot;{Binding FicSfDataGrid_SelectedItem_Inventarios}&quot;&#10;                SelectionMode=&quot;Single&quot;&gt;&#10;                &lt;syncfusion:SfDataGrid.Columns x:TypeArguments=&quot;syncfusion:Columns&quot;&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ID&quot; MappingName=&quot;IdInventario&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ESTATUS&quot; MappingName=&quot;IdEstatus&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;SAP&quot; MappingName=&quot;IdInventariosSAP&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ALMACEN&quot; MappingName=&quot;IdAlmacen&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;CEDI&quot; MappingName=&quot;IdCEDI&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;FECHA&quot; MappingName=&quot;FechaReg&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;USUARIO&quot; MappingName=&quot;UsuarioReg&quot;/&gt;&#10;                &lt;/syncfusion:SfDataGrid.Columns&gt;&#10;                &#10;            &lt;/syncfusion:SfDataGrid&gt;&#10;        &lt;/StackLayout&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+            <marker date="1552584649855" expanded="true" signature="356:2284" ph="&lt;&lt;StackLayout&gt;&#10;            &lt;SearchBar&#10;                HorizontalOptions=&quot;FillAndExpand&quot;&#10;                Placeholder=&quot;Filtrar Informacion...&quot;&#10;                PlaceholderColor=&quot;Black&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                Grid.Column=&quot;0&quot;&#10;                x:Name=&quot;FicSearchBar&quot;&#10;                TextChanged=&quot;FicSearchBar_TextChanged&quot;&#10;                HeightRequest=&quot;42&quot;/&gt;&#10;            &lt;syncfusion:SfDataGrid&#10;                x:Name=&quot;FicDataGridListaInventarios&quot;&#10;                VerticalOptions=&quot;FillAndExpand&quot;&#10;                ColumnSizer=&quot;Star&quot;&#10;                AutoGenerateColumns=&quot;False&quot;&#10;                AllowSorting=&quot;False&quot;&#10;                ItemsSource=&quot;{Binding FicSfDataGrid_ItemSource_Inventarios}&quot;&#10;                SelectedItem=&quot;{Binding FicSfDataGrid_SelectedItem_Inventarios}&quot;&#10;                SelectionMode=&quot;Single&quot;&gt;&#10;                &lt;syncfusion:SfDataGrid.Columns x:TypeArguments=&quot;syncfusion:Columns&quot;&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ID&quot; MappingName=&quot;IdInventario&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ESTATUS&quot; MappingName=&quot;IdEstatus&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;SAP&quot; MappingName=&quot;IdInventariosSAP&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ALMACEN&quot; MappingName=&quot;IdAlmacen&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;CEDI&quot; MappingName=&quot;IdCEDI&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;FECHA&quot; MappingName=&quot;FechaReg&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;USUARIO&quot; MappingName=&quot;UsuarioReg&quot;/&gt;&#10;                &lt;/syncfusion:SfDataGrid.Columns&gt;&#10;                &#10;            &lt;/syncfusion:SfDataGrid&gt;&#10;        &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1552584649855" expanded="true" signature="386:2257" ph="&lt;&lt;SearchBar&#10;                HorizontalOptions=&quot;FillAndExpand&quot;&#10;                Placeholder=&quot;Filtrar Informacion...&quot;&#10;                PlaceholderColor=&quot;Black&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                Grid.Column=&quot;0&quot;&#10;                x:Name=&quot;FicSearchBar&quot;&#10;                TextChanged=&quot;FicSearchBar_TextChanged&quot;&#10;                HeightRequest=&quot;42&quot;/&gt; &lt;syncfusion:SfDataGrid&#10;                x:Name=&quot;FicDataGridListaInventarios&quot;&#10;                VerticalOptions=&quot;FillAndExpand&quot;&#10;                ColumnSizer=&quot;Star&quot;&#10;                AutoGenerateColumns=&quot;False&quot;&#10;                AllowSorting=&quot;False&quot;&#10;                ItemsSource=&quot;{Binding FicSfDataGrid_ItemSource_Inventarios}&quot;&#10;                SelectedItem=&quot;{Binding FicSfDataGrid_SelectedItem_Inventarios}&quot;&#10;                SelectionMode=&quot;Single&quot;&gt;&#10;                &lt;syncfusion:SfDataGrid.Columns x:TypeArguments=&quot;syncfusion:Columns&quot;&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ID&quot; MappingName=&quot;IdInventario&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ESTATUS&quot; MappingName=&quot;IdEstatus&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;SAP&quot; MappingName=&quot;IdInventariosSAP&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ALMACEN&quot; MappingName=&quot;IdAlmacen&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;CEDI&quot; MappingName=&quot;IdCEDI&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;FECHA&quot; MappingName=&quot;FechaReg&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;USUARIO&quot; MappingName=&quot;UsuarioReg&quot;/&gt;&#10;                &lt;/syncfusion:SfDataGrid.Columns&gt;&#10;                &#10;            &lt;/syncfusion:SfDataGrid&gt;.../&gt;" />
+            <marker date="1552584649855" expanded="true" signature="412:757" ph="&lt;.../&gt;" />
+            <marker date="1552584649855" expanded="true" signature="770:2234" ph="&lt;&lt;syncfusion:SfDataGrid.Columns x:TypeArguments=&quot;syncfusion:Columns&quot;&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ID&quot; MappingName=&quot;IdInventario&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ESTATUS&quot; MappingName=&quot;IdEstatus&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;SAP&quot; MappingName=&quot;IdInventariosSAP&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ALMACEN&quot; MappingName=&quot;IdAlmacen&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;CEDI&quot; MappingName=&quot;IdCEDI&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;FECHA&quot; MappingName=&quot;FechaReg&quot;/&gt;&#10;                    &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;USUARIO&quot; MappingName=&quot;UsuarioReg&quot;/&gt;&#10;                &lt;/syncfusion:SfDataGrid.Columns&gt;.../&gt;" />
+            <marker date="1552584649855" expanded="true" signature="1223:2180" ph="&lt;&lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ID&quot; MappingName=&quot;IdInventario&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ESTATUS&quot; MappingName=&quot;IdEstatus&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;SAP&quot; MappingName=&quot;IdInventariosSAP&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;ALMACEN&quot; MappingName=&quot;IdAlmacen&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;CEDI&quot; MappingName=&quot;IdCEDI&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;FECHA&quot; MappingName=&quot;FechaReg&quot;/&gt; &lt;syncfusion:GridTextColumn HeaderFontAttribute=&quot;Bold&quot; HeaderText=&quot;USUARIO&quot; MappingName=&quot;UsuarioReg&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppDAM10/AppDAM10.Android/SQLite/FicDataBasePathSQLiteAndroid.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <marker date="1552326731139" expanded="false" signature="6:313" ph="..." />
+            <marker date="1552326731139" expanded="true" signature="406:689" ph="{...}" />
+            <marker date="1552326731139" expanded="true" signature="471:687" ph="{...}" />
+            <marker date="1552326731139" expanded="true" signature="520:681" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppDAM10/AppDAM10/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1549562337412" expanded="true" signature="208:261" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

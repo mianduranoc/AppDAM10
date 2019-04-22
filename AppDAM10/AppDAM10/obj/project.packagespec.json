@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\Repositorios\\XAMARIN\\AppDAM10\\AppDAM10\\AppDAM10\\AppDAM10.csproj",
+    "projectName": "AppDAM10",
+    "projectPath": "D:\\Repositorios\\XAMARIN\\AppDAM10\\AppDAM10\\AppDAM10\\AppDAM10.csproj",
+    "outputPath": "D:\\Repositorios\\XAMARIN\\AppDAM10\\AppDAM10\\AppDAM10\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.2.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "Syncfusion.Xamarin.SfDataGrid": {
+          "target": "Package",
+          "version": "[16.4.0.46, )"
+        },
+        "Xamarin.Forms": {
+          "target": "Package",
+          "version": "[3.4.0.1008975, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

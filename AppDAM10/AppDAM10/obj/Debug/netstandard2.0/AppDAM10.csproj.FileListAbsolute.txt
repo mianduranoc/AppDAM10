@@ -1,0 +1,13 @@
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\bin\Debug\netstandard2.0\AppDAM10.deps.json
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\bin\Debug\netstandard2.0\AppDAM10.dll
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\bin\Debug\netstandard2.0\AppDAM10.pdb
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\obj\Debug\netstandard2.0\AppDAM10.csprojAssemblyReference.cache
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\obj\Debug\netstandard2.0\AppDAM10.csproj.CoreCompileInputs.cache
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\obj\Debug\netstandard2.0\AppDAM10.AssemblyInfoInputs.cache
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\obj\Debug\netstandard2.0\AppDAM10.AssemblyInfo.cs
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\obj\Debug\netstandard2.0\AppDAM10.dll
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\obj\Debug\netstandard2.0\AppDAM10.pdb
+D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10\obj\Debug\netstandard2.0\Views\Inventories\FicViInventariosList.xaml.g.cs

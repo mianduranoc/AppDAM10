@@ -1,0 +1,12 @@
+﻿"D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10.UWP\obj\x86\Release\ilc\in\AppDAM10.dll"
+"D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10.UWP\obj\x86\Release\ilc\in\AppDAM10.UWP.exe"
+"D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Core.dll"
+"D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.dll"
+"D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.UAP.dll"
+"D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Xaml.dll"
+/Lib:"D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10.UWP\obj\x86\Release\ilc\in"
+/Lib:"C:\Users\Miguel Angel\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\tools\x86\ilc\lib\Private"
+/WinMD:"D:\Repositorios\XAMARIN\AppDAM10\AppDAM10\AppDAM10.UWP\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"22f9f0de-dee4-49ee-b550-9a857d29b5f3","Id":"0c412b68-3a6e-4b7a-9551-0b07f047b456","ProcessStartTime":636854807633795099}"
+/RdXmlPath:"C:\Users\Miguel Angel\.nuget\packages\microsoft.net.native.compiler\2.1.8\tools\LibraryXML"
+/RunOnlyPreDR
